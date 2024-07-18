@@ -1,0 +1,17 @@
+<tui-editor
+    [tools]="builtInTools"
+    [(ngModel)]="editor"
+>
+    Typing...
+</tui-editor>
+
+<br />
+
+<h4>HTML:</h4>
+<tui-editor-socket
+    class="tui-example"
+    [content]="editor"
+/>
+
+<h4>Text:</h4>
+<p>{{ editor }}</p>

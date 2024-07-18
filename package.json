@@ -1,0 +1,71 @@
+{
+    "name": "editor-preview",
+    "private": true,
+    "license": "Apache-2.0",
+    "scripts": {
+        "nx": "nx",
+        "start": "nx serve demo",
+        "build": "nx build demo",
+        "lint": "eslint .",
+        "prettier": "prettier !package-lock.json . --ignore-path .gitignore"
+    },
+    "browserslist": [
+        "extends @taiga-ui/browserslist-config"
+    ],
+    "prettier": "@taiga-ui/prettier-config",
+    "eslintConfig": {
+        "extends": [
+            "plugin:@taiga-ui/experience/all"
+        ]
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "18.1.1",
+        "@angular-devkit/core": "18.1.1",
+        "@angular-devkit/schematics": "18.1.1",
+        "@angular/animations": "18.1.1",
+        "@angular/cdk": "18.1.1",
+        "@angular/cli": "18.1.1",
+        "@angular/common": "18.1.1",
+        "@angular/compiler": "18.1.1",
+        "@angular/compiler-cli": "18.1.1",
+        "@angular/core": "18.1.1",
+        "@angular/forms": "18.1.1",
+        "@angular/language-service": "18.1.1",
+        "@angular/platform-browser": "18.1.1",
+        "@angular/platform-browser-dynamic": "18.1.1",
+        "@angular/platform-server": "18.1.1",
+        "@angular/router": "18.1.1",
+        "@angular/ssr": "18.1.1",
+        "@ng-web-apis/common": "3.0.6",
+        "@ng-web-apis/universal": "3.0.7",
+        "@nx/workspace": "19.5.0",
+        "@taiga-ui/addon-doc": "3.87.0",
+        "@taiga-ui/addon-mobile": "3.87.0",
+        "@taiga-ui/browserslist-config": "0.117.0",
+        "@taiga-ui/cdk": "3.87.0",
+        "@taiga-ui/commitlint-config": "0.117.0",
+        "@taiga-ui/core": "3.87.0",
+        "@taiga-ui/eslint-plugin-experience": "0.117.0",
+        "@taiga-ui/icons": "3.87.0",
+        "@taiga-ui/kit": "3.87.0",
+        "@taiga-ui/prettier-config": "0.117.0",
+        "@taiga-ui/stylelint-config": "0.117.0",
+        "@taiga-ui/styles": "3.87.0",
+        "@taiga-ui/tsconfig": "0.117.0",
+        "@tinkoff/ng-dompurify": "4.0.0",
+        "@tinkoff/tui-editor": "1.46.0",
+        "@types/minimatch": "5.1.2",
+        "@types/node": "20.14.11",
+        "dompurify": "3.1.6",
+        "ng-packagr": "18.1.0",
+        "nx": "19.5.0",
+        "rxjs": "7.8.1",
+        "ts-node": "10.9.2",
+        "tslib": "2.6.3",
+        "typescript": "5.4.5",
+        "zone.js": "0.14.8"
+    },
+    "overrides": {
+        "prosemirror-model": "^1.18.1"
+    }
+}
