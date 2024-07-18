@@ -1,3 +1,3 @@
-### Preview
+### Rich text editor extension with related Taiga UI components based on TipTap
 
-https://taiga-family.github.io/preview-landing-components/
+**TipTap**: https://tiptap.dev/docs <br /> **Documentation**: https://taiga-family.github.io/editor/ <br />
