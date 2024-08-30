@@ -45,7 +45,7 @@
         "@angular/platform-server": "18.2.2",
         "@angular/router": "18.2.2",
         "@angular/ssr": "18.2.2",
-        "@ng-web-apis/universal": "3.2.3",
+        "@ng-web-apis/universal": "4.2.1",
         "@nx/workspace": "19.6.4",
         "@taiga-ui/addon-doc": "3.93.0",
         "@taiga-ui/addon-mobile": "3.93.0",
