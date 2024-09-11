@@ -11,12 +11,12 @@
         "prettier": "prettier !package-lock.json . --ignore-path .gitignore"
     },
     "lint-staged": {
-        "*.less": [
-            "stylelint --fix"
-        ],
         "*.{js,ts,html,svg,yml,md,less,json}": [
             "eslint --fix",
             "prettier --write"
+        ],
+        "*.{less,css}": [
+            "stylelint --fix"
         ]
     },
     "browserslist": [
@@ -78,8 +78,5 @@
         "ts-node": "10.9.2",
         "tslib": "2.7.0",
         "typescript": "5.5.4"
-    },
-    "overrides": {
-        "prosemirror-model": "^1.18.1"
     }
 }
