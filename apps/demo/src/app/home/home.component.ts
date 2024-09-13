@@ -4,14 +4,14 @@ import {
     TUI_EDITOR_DEFAULT_EDITOR_TOOLS,
     TUI_EDITOR_DEFAULT_EXTENSIONS,
     TUI_EDITOR_EXTENSIONS,
-    TuiEditorModule,
-    TuiEditorSocketModule,
-} from '@tinkoff/tui-editor';
+    TuiEditor,
+    TuiEditorSocket,
+} from '@taiga-ui/editor';
 
 @Component({
     standalone: true,
     selector: 'home',
-    imports: [FormsModule, TuiEditorModule, TuiEditorSocketModule],
+    imports: [FormsModule, TuiEditor, TuiEditorSocket],
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.less'],
     encapsulation: ViewEncapsulation.None,
