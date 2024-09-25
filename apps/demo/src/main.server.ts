@@ -1,5 +1,3 @@
-import '@ng-web-apis/universal/mocks';
-
 import type {ApplicationRef} from '@angular/core';
 import {bootstrapApplication} from '@angular/platform-browser';
 
