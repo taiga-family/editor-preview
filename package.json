@@ -71,7 +71,7 @@
         "@taiga-ui/styles": "4.13.0",
         "@taiga-ui/tsconfig": "0.228.0",
         "@types/minimatch": "5.1.2",
-        "@types/node": "22.8.2",
+        "@types/node": "22.8.4",
         "dompurify": "3.1.7",
         "lint-staged": "15.2.10",
         "ng-packagr": "18.2.1",
